@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohmuvzakon</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Ohmův zákon</h1>
+    <center>
+    <div class="vypocet">
+        
+        
+        <label for="napeti">Napětí [V]:</label>
+        <input type="number" id="napeti" >
+        
+        <label for="proud">Proud [A]:</label>
+        <input type="number" id="proud" >
+        
+        <label for="odpor">Odpor [OHM]:</label>
+        <input type="number" id="odpor" >
+        
+        <button onclick="vypocetOhmovaZakona()">Výpočet</button>
+
+        <div id="chyba" class="chyba"></div>
+    </div>
+    </center>
+    <script src ="app.js"> </script>
+</body>
+</html>
